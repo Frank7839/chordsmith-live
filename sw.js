@@ -1,7 +1,7 @@
 // Chordsmith Live offline helper.
 // Change VERSION whenever you upload a new index.html, so phones pick up the update.
-const VERSION = 'chordsmith-live-v1';
-const CORE = ['./', './index.html', './manifest.json', './icon-192.png', './icon-512.png'];
+const VERSION = 'chordsmith-live-v2';
+const CORE = ['./', './index.html', './manifest.json', './icon-192.png', './icon-512.png', './privacy.html'];
 const CDN = ['fonts.googleapis.com', 'fonts.gstatic.com', 'cdnjs.cloudflare.com', 'unpkg.com', 'cdn.jsdelivr.net'];
 
 self.addEventListener('install', e => {

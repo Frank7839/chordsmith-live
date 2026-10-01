@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Chordsmith Live Privacy</title>
+<style>
+:root{--bg:#EDF0EB;--surface:#F8FAF6;--ink:#17201B;--muted:#5A6861;--line:#CFD7CF;--accent:#0E6B5C}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){color-scheme:dark;--bg:#0F1311;--surface:#161C19;--ink:#E3EAE5;--muted:#94A39B;--line:#29332E;--accent:#4CC0A7}}
+:root[data-theme="dark"]{color-scheme:dark;--bg:#0F1311;--surface:#161C19;--ink:#E3EAE5;--muted:#94A39B;--line:#29332E;--accent:#4CC0A7}
+body{background:var(--bg);color:var(--ink);font:16px/1.65 Georgia,"Times New Roman",serif;padding-inline:16px;padding-block:40px 64px}
+main{max-width:66ch;margin-inline:auto}
+h1{font-size:34px;line-height:1.15;margin:0 0 6px;text-wrap:balance;font-weight:400}
+.meta{color:var(--muted);font:14px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif;margin:0 0 32px}
+h2{font:600 13px/1.4 system-ui,-apple-system,"Segoe UI",sans-serif;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin:32px 0 8px}
+p,li{margin:0 0 12px}
+ul{padding-left:1.2em}
+.box{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px 18px;margin:0 0 8px}
+code{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:14px}
+</style></head><body>
+<main>
+  <h1>Chordsmith Live privacy policy</h1>
+  <p class="meta">Applies to the Chordsmith Live web app and its installed version. Effective 1 October 2026.</p>
+
+  <div class="box"><p style="margin:0">In short: Chordsmith Live does not collect or sell any personal data. Your songs and setlists stay on your device. The band room sends tonight’s setlist directly between your band’s phones.</p></div>
+
+  <h2>What the app stores</h2>
+  <p>The app is hosted on GitHub Pages, which, like any web host, may keep standard server logs such as IP addresses; the developer does not receive or use these. Your songs, setlists, display settings and guide settings are saved in your browser’s storage on your device. They are not uploaded to any server, and the developer cannot see them. Clearing this site’s data or uninstalling the app deletes them.</p>
+
+  <h2>Band room</h2>
+  <p>When you start or join a band room, the app connects the phones in your band directly to each other (WebRTC). To find each other, the phones use PeerJS’s free public connection service, which sees the room code and your phone’s network address while connecting. Public STUN servers may also be used to set up the direct link. The leader’s phone then sends the setlist, the songs on it, your chosen name, the key and the current position straight to the phones in the room. Nothing is stored on a server, and the room ends when the leader closes it.</p>
+  <p>Only share your room code with people you want to see tonight’s setlist.</p>
+
+  <h2>Libraries and fonts</h2>
+  <p>To run the band room and show QR codes, the app loads two open-source libraries from public code hosts (cdnjs, unpkg or jsDelivr), and loads its fonts from Google Fonts. Like any website, these services can see your network address when the files are downloaded.</p>
+
+  <h2>Guide voice</h2>
+  <p>The in-ear guide downloads its built-in voice recording from the same site that hosts the app. Voice recordings you load yourself are saved in your browser’s storage on your device and are never uploaded.</p>
+
+  <h2>What the app does not do</h2>
+  <ul>
+    <li>No accounts or sign-in.</li>
+    <li>No analytics, tracking or crash-reporting services.</li>
+    <li>No advertising and no advertising identifiers.</li>
+    <li>No access to your microphone, camera, contacts or location. The app only opens files you choose: a voice recording or a backup.</li>
+    <li>No selling or sharing of data with anyone.</li>
+  </ul>
+
+  <h2>Children</h2>
+  <p>The app is not directed at children under 13 and collects no information from anyone.</p>
+
+  <h2>Changes</h2>
+  <p>If a future version handles data differently, this policy will be updated before that version is released, and the date above will change.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: <span style="user-select:all">franklin160371@gmail.com</span></p>
+</main>
+
+</body></html>
